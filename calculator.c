@@ -46,25 +46,25 @@ int main()
 
 		switch (mainnum) {
 		case 1:
-			printf("Toplamak istediğiniz iki sayiyi giriniz \n");
+			printf("Toplamak istediginiz iki sayiyi giriniz \n");
 			scanf("%d %d", &x1num, &x2num);
 			Addition(x1num, x2num);
 			break;
 
 		case 2:
-			printf("Cikarmak istediğiniz iki sayiyi giriniz \n");
+			printf("Cikarmak istediginiz iki sayiyi giriniz \n");
 			scanf("%d %d", &x1num, &x2num);
 			Subtraction(x1num, x2num);
 			break;
 
 		case 3:
-			printf("Carpmak istediğiniz iki sayiyi giriniz \n");
+			printf("Carpmak istediginiz iki sayiyi giriniz \n");
 			scanf("%d %d", &x1num, &x2num);
 			Multiplication(x1num, x2num);
 			break;
 
 		case 4:
-			printf("Bolmek istediğiniz iki sayiyi giriniz \n");
+			printf("Bolmek istediginiz iki sayiyi giriniz \n");
 			scanf("%d %d", &x1num, &x2num);
 			Division(x1num, x2num);
 			break;
